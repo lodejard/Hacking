@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="__ToolsVersion__"
+   DefaultTargets="Examine"
+   xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <UsingTask
+    TaskName="ExamineProject"
+    TaskFactory="CodeTaskFactory"
+    AssemblyFile="$(MSBuildToolsPath)\Microsoft.Build.Tasks.v12.0.dll" >
+    <ParameterGroup>
+      <ProjectFile ParameterType="System.String" />
+      <ProjectConfiguration ParameterType="System.String" />
+      <OutputFile ParameterType="System.String" />
+    </ParameterGroup>
+    <Task>
+      <Reference Include="Microsoft.Build, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+      <Reference Include="System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+      <Reference Include="System.Xml.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+      <Using Namespace="Microsoft.Build.Evaluation" />
+      <Using Namespace="System" />
+      <Using Namespace="System.Collections.Generic" />
+      <Using Namespace="System.Xml.Linq" />
+      <Code Type="Fragment" Language="cs">
+        <![CDATA[
+                var e = new ProjectCollection(new Dictionary<string, string>()
+                {
+                    {"Configuration", ProjectConfiguration},
+                    {"BuildProjectReferences", "false"}
+                });
+
+                var rootElement = new XElement("root");
+                var projectFiles = new List<string> { ProjectFile };
+                for (var index = 0; index != projectFiles.Count; index++)
+                {
+                    var projectFile = projectFiles[index];
+                    var project = e.LoadProject(projectFile);
+                    var projectInstance = project.CreateProjectInstance();
+                    var buildResult = projectInstance.Build("ResolveReferences", null);
+
+                    var projectElement = new XElement("project");
+                    projectElement.SetAttributeValue("projectFile", projectFile);
+                    projectElement.SetAttributeValue("buildResult", buildResult);
+                    rootElement.Add(projectElement);
+
+                    foreach (var itemType in projectInstance.ItemTypes)
+                    {
+                        foreach (var item in projectInstance.GetItems(itemType))
+                        {
+                            if (item.ItemType == "ReferencePath" && item.HasMetadata("MSBuildSourceProjectFile"))
+                            {
+                                var referenceProjectFile = item.GetMetadata("MSBuildSourceProjectFile").EvaluatedValue;
+                                if (!projectFiles.Contains(referenceProjectFile))
+                                {
+                                    projectFiles.Add(referenceProjectFile);
+                                }
+                            }
+
+                            var itemElement = new XElement("item");
+                            itemElement.SetAttributeValue("itemType", item.ItemType);
+                            itemElement.SetAttributeValue("evaluated", item.EvaluatedInclude);
+                            projectElement.Add(itemElement);
+
+                            foreach (var metadata in item.Metadata)
+                            {
+                                var metadataElement = new XElement("metadata");
+                                metadataElement.SetAttributeValue("name", metadata.Name);
+                                metadataElement.SetAttributeValue("evaluated", metadata.EvaluatedValue);
+                                itemElement.Add(metadataElement);
+                            }
+                        }
+                    }
+
+                    foreach (var property in projectInstance.Properties)
+                    {
+                        var propertyElement = new XElement("property");
+                        propertyElement.SetAttributeValue("name", property.Name);
+                        propertyElement.SetAttributeValue("evaluated", property.EvaluatedValue);
+                        projectElement.Add(propertyElement);
+                    }
+                }
+                
+                rootElement.Save(OutputFile);
+          ]]>
+      </Code>
+    </Task>
+  </UsingTask>
+  <Target Name="Examine">
+    <Warning Text="$(MSBuildToolsPath)"/>
+    <ExamineProject
+        ProjectFile="$(ProjectFile)"
+        ProjectConfiguration="$(Configuration)"
+        OutputFile="$(OutputFile)"/>
+  </Target>
+</Project>

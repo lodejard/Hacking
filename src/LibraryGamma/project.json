@@ -1,0 +1,30 @@
+﻿{
+    "version": "1.0.0-*",
+
+    "dependencies": {
+    },
+
+    "frameworks": {
+        "net45": {
+            "bin": {
+                "assembly": "bin/{configuration}/LibraryGamma.dll",
+                "pdb": "bin/{configuration}/LibraryGamma.pdb"
+            },
+            "dependencies": {
+                "HtmlAgilityPack": "1.4.6"
+            }
+        },
+        "aspnetcore50": {
+            "dependencies": {
+                "HtmlAgilityPack": "1.4.6",
+                "System.Console": "4.0.0.0",
+                "System.Runtime": "4.0.20-*",
+                "System.Runtime.Extensions": "4.0.10.0"
+            }
+        }
+    },
+
+    "scripts": {
+        "prebuild": [ "msbuild LibraryGamma.csproj" ]
+    }
+}

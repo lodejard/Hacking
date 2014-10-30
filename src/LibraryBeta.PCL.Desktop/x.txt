@@ -1,0 +1,957 @@
+
+C:\Users\lodejard\Projects\Hacking\src\LibraryBeta.PCL.Desktop>"C:\Program Files (x86)\MSBuild\14.0\bin\msbuild" /target:ResolveAssemblyReferencesDesignTime /v:diag 
+Microsoft (R) Build Engine version 14.0.22210.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+C:\Program Files (x86)\MSBuild\14.0\bin\msbuild.exe /target:ResolveAssemblyReferencesDesignTime /v:diag .\LibraryBeta.PCL.Desktop.csproj
+Build started 10/17/2014 2:55:33 PM.
+Environment at start of build:
+ALLUSERSPROFILE = C:\ProgramData
+APPDATA = C:\Users\lodejard\AppData\Roaming
+ChocolateyInstall = C:\ProgramData\chocolatey
+CommonProgramFiles = C:\Program Files (x86)\Common Files
+CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
+CommonProgramW6432 = C:\Program Files\Common Files
+COMPUTERNAME = LODEJARD28
+ComSpec = C:\windows\system32\cmd.exe
+FP_NO_HOST_CHECK = NO
+HOMEDRIVE = C:
+HOMEPATH = \Users\lodejard
+KRE_HOME = C:\Program Files\KRE;%USERPROFILE%\.kre
+LOCALAPPDATA = C:\Users\lodejard\AppData\Local
+LOGONSERVER = \\CO1-RED-DC-17
+MSBuildLoadMicrosoftTargetsReadOnly = true
+MSBUILDLOGTASKINPUTS = 1
+NUMBER_OF_PROCESSORS = 2
+OS = Windows_NT
+Path = C:\Users\lodejard\.kre\packages\KRE-CLR-x86.1.0.0-beta1-10577\bin;C:\Program Files (x86)\Parallels\Parallels Tools\Applications;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.1\;C:\Program Files\nodejs\;C:\Program Files (x86)\Git\cmd;C:\Users\lodejard\bin;C:\Users\lodejard\.kre\bin;C:\ProgramData\chocolatey\bin;C:\Users\lodejard\AppData\Roaming\npm
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PROCESSOR_ARCHITECTURE = x86
+PROCESSOR_ARCHITEW6432 = AMD64
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 69 Stepping 1, GenuineIntel
+PROCESSOR_LEVEL = 6
+PROCESSOR_REVISION = 4501
+ProgramData = C:\ProgramData
+ProgramFiles = C:\Program Files (x86)
+ProgramFiles(x86) = C:\Program Files (x86)
+ProgramW6432 = C:\Program Files
+PROMPT = $P$G
+PSModulePath = C:\windows\system32\WindowsPowerShell\v1.0\Modules\;c:\Program Files\Microsoft Security Client\MpProvider\
+PUBLIC = C:\Users\Public
+SESSIONNAME = Console
+SystemDrive = C:
+SystemRoot = C:\windows
+SYSTEMTYPE = da-laptop
+TEMP = C:\Users\lodejard\AppData\Local\Temp
+TMP = C:\Users\lodejard\AppData\Local\Temp
+ToastSettings = {"collection":[{"SolutionName":"DirectAccess","SolutionStatus":false},{"SolutionName":"DirectAccess cannot connect","SolutionStatus":false},{"SolutionName":"Outlook Not Responding","SolutionStatus":false},{"SolutionName":"Outlook Multiple Process running","SolutionStatus":false},{"SolutionName":"Draft Email Protection","SolutionStatus":false},{"SolutionName":"Pending Reboot","SolutionStatus":false},{"SolutionName":"Password Reset","SolutionStatus":false},{"SolutionName":"Outlook Corrupted Credentials","SolutionStatus":false},{"SolutionName":"IE Recommended Settings","SolutionStatus":false},{"SolutionName":"Smart Card is not working","SolutionStatus":false},{"SolutionName":"Unable to connect to wireless LAN","SolutionStatus":false},{"SolutionName":"WiFi driver update","SolutionStatus":false},{"SolutionName":"Windows Update","SolutionStatus":false}]}
+UATDATA = C:\Windows\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77
+USERDNSDOMAIN = REDMOND.CORP.MICROSOFT.COM
+USERDOMAIN = REDMOND
+USERDOMAIN_ROAMINGPROFILE = REDMOND
+USERNAME = lodejard
+USERPROFILE = C:\Users\lodejard
+VS140COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\
+windir = C:\windows
+
+Overriding target "GetFrameworkPaths" in project "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" with target "GetFrameworkPaths" from project "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.NetFramework.CurrentVersion.targets".
+Overriding target "SatelliteDllsProjectOutputGroup" in project "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" with target "SatelliteDllsProjectOutputGroup" from project "C:\windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets".
+The target "AfterGenerateAppxManifest" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\.NetNative\Microsoft.NetNative.targets (47,11)" does not exist in the project, and will be ignored.
+The target "AfterGenerateAppxManifest" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\.NetNative\Microsoft.NetNative.targets (94,11)" does not exist in the project, and will be ignored.
+Project "C:\Users\lodejard\Projects\Hacking\src\LibraryBeta.PCL.Desktop\LibraryBeta.PCL.Desktop.csproj" on node 1 (ResolveAssemblyReferencesDesignTime target(s)).
+Initial Properties:
+_AfterCompileWinFXInternalDependsOn = 
+        PrepareResourcesForSatelliteAssemblies;
+        MergeLocalizationDirectives;
+        AfterCompileWinFX
+    
+_CompileTargetNameForLocalType = _CompileTemporaryAssembly
+_DebugSymbolsProduced = true
+_DeploymentApplicationManifestIdentity = Native.LibraryBeta
+_DeploymentBuiltUpdateInterval = 0
+_DeploymentBuiltUpdateIntervalUnits = Days
+_DeploymentDeployManifestIdentity = LibraryBeta.application
+_DeploymentFileMappingExtension = 
+_DeploymentTargetApplicationManifestFileName = Native.LibraryBeta.manifest
+_DeploymentUrl = 
+_DocumentationFileProduced = false
+_GatekeeperCreateConversionReport = false
+_GatekeeperPlatformTarget = x64
+_GenerateBindingRedirectsIntermediateAppConfig = obj\Debug\LibraryBeta.PCL.Desktop.csproj.LibraryBeta.dll.config
+_GetChildProjectCopyToOutputDirectoryItems = true
+_OriginalConfiguration = Debug
+_OriginalPlatform = AnyCPU
+_ProjectDefaultTargets = Build
+_RequireMCPass2ForMainAssembly = false
+_RequireMCPass2ForSatelliteAssemblyOnly = false
+_ResolveReferenceDependencies = false
+_ResourceNameInMainAssembly = LibraryBeta.g.resources
+_SGenDllCreated = false
+_SGenDllName = LibraryBeta.XmlSerializers.dll
+_SGenGenerateSerializationAssembliesConfig = Off
+AddAdditionalExplicitAssemblyReferences = true
+AddBuildInfoToAssembly = false
+AdditionalExplicitAssemblyReferences = System.Core;
+AllowedReferenceAssemblyFileExtensions = 
+      .winmd;
+      .dll;
+      .exe
+    
+AllowedReferenceRelatedFileExtensions = 
+      .pdb;
+      .xml;
+      .pri
+    
+ALLUSERSPROFILE = C:\ProgramData
+AlwaysCompileMarkupFilesInSeparateDomain = true
+AlwaysUseNumericalSuffixInItemNames = true
+APPDATA = C:\Users\lodejard\AppData\Roaming
+AppDesignerFolder = Properties
+AssemblyFoldersSuffix = AssemblyFoldersEx
+AssemblyName = LibraryBeta
+AssemblySearchPaths = 
+      {CandidateAssemblyFiles};
+      ;
+      {HintPathFromItem};
+      {TargetFrameworkDirectory};
+      {Registry:Software\Microsoft\.NETFramework,v4.5,AssemblyFoldersEx};
+      {AssemblyFolders};
+      {GAC};
+      {RawFileName};
+      bin\Debug\
+    
+AssignTargetPathsDependsOn = 
+AutoUnifyAssemblyReferences = true
+AvailablePlatforms = Any CPU,x86,x64
+BaseIntermediateOutputPath = obj\
+BuildCompileAction = Build
+BuildDependsOn = 
+      EntityDeploy;
+      
+      BeforeBuild;
+      CoreBuild;
+      AfterBuild
+    
+    
+BuildGenerateSourcesAction = Build
+BuildInfoBinPath = C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v14.0\BuildInfo
+BuildInfoTargets = C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v14.0\BuildInfo\Microsoft.VisualStudio.ReleaseManagement.BuildInfo.targets
+BuildingProject = false
+BuildInParallel = true
+BuildLinkAction = Build
+BuildProjectReferences = true
+BuildSystem = MSBuild
+BuildTaskAssembly = PresentationBuildTasks, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+BuiltProjectOutputGroupDependsOn = PrepareForBuild
+ChocolateyInstall = C:\ProgramData\chocolatey
+CleanDependsOn = 
+      
+      BeforeClean;
+      UnmanagedUnregistration;
+      CoreClean;
+      CleanReferencedProjects;
+      CleanPublishFolder;
+      AfterClean
+    ;
+      EntityClean;
+    
+CleanFile = LibraryBeta.PCL.Desktop.csproj.FileListAbsolute.txt
+CodeAnalysisApplyLogFileXsl = false
+CodeAnalysisFailOnMissingRules = false
+CodeAnalysisForceOutput = true
+CodeAnalysisGenerateSuccessFile = true
+CodeAnalysisIgnoreGeneratedCode = true
+CodeAnalysisIgnoreInvalidTargets = true
+CodeAnalysisIgnoreMissingIndirectReferences = false
+CodeAnalysisInputAssembly = bin\Debug\LibraryBeta.dll
+CodeAnalysisLogFile = bin\Debug\LibraryBeta.dll.CodeAnalysisLog.xml
+CodeAnalysisModuleSuppressionsFile = GlobalSuppressions.cs
+CodeAnalysisOutputToConsole = false
+CodeAnalysisOverrideRuleVisibilities = false
+CodeAnalysisPath = C:\Program Files (x86)\Microsoft Visual Studio 14.0\Team Tools\Static Analysis Tools\FxCop\
+CodeAnalysisQuiet = false
+CodeAnalysisRuleDirectories = ;C:\Program Files (x86)\Microsoft Visual Studio 14.0\Team Tools\Static Analysis Tools\FxCop\\Rules
+CodeAnalysisRuleSet = MinimumRecommendedRules.ruleset
+CodeAnalysisRuleSetDirectories = ;C:\Program Files (x86)\Microsoft Visual Studio 14.0\Team Tools\Static Analysis Tools\\Rule Sets
+CodeAnalysisSaveMessagesToReport = Active
+CodeAnalysisSearchGlobalAssemblyCache = true
+CodeAnalysisStaticAnalysisDirectory = C:\Program Files (x86)\Microsoft Visual Studio 14.0\Team Tools\Static Analysis Tools\
+CodeAnalysisSucceededFile = bin\Debug\LibraryBeta.dll.lastcodeanalysissucceeded
+CodeAnalysisSummary = false
+CodeAnalysisTargets = C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v14.0\CodeAnalysis\Microsoft.CodeAnalysis.targets
+CodeAnalysisTimeout = 120
+CodeAnalysisTreatWarningsAsErrors = false
+CodeAnalysisUpdateProject = false
+CodeAnalysisUseTypeNameInSuppression = true
+CodeAnalysisVerbose = false
+CommonProgramFiles = C:\Program Files (x86)\Common Files
+CommonProgramW6432 = C:\Program Files\Common Files
+CommonTargetsPath = C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets
+CommonXamlResourcesDirectory = C:\Program Files (x86)\MSBuild\14.0\bin\\
+CompileDependsOn = 
+        
+      ResolveReferences;
+      ResolveKeySource;
+      SetWin32ManifestProperties;
+      _GenerateCompileInputs;
+      BeforeCompile;
+      _TimeStampBeforeCompile;
+      CoreCompile;
+      _TimeStampAfterCompile;
+      AfterCompile;
+    ;
+        _AfterCompileWinFXInternal
+    
+CompileLicxFilesDependsOn = 
+CompileRdlFilesDependsOn = PrepareRdlFiles;RunRdlCompiler
+CompileTargetNameForTemporaryAssembly = CompileTemporaryAssembly
+ComputeIntermediateSatelliteAssembliesDependsOn = 
+      CreateManifestResourceNames
+    
+COMPUTERNAME = LODEJARD28
+ComReferenceExecuteAsTool = false
+ComReferenceNoClassMembers = false
+ComSpec = C:\windows\system32\cmd.exe
+Configuration = Debug
+ConfigurationName = Debug
+ConsiderPlatformAsProcessorArchitecture = true
+ContentFilesProjectOutputGroupDependsOn = PrepareForBuild;AssignTargetPaths
+ContinueOnError = false
+CoreBuildDependsOn = 
+      BuildOnlySettings;
+      PrepareForBuild;
+      PreBuildEvent;
+      ResolveReferences;
+      PrepareResources;
+      ResolveKeySource;
+      Compile;
+      ExportWindowsMDFile;
+      UnmanagedUnregistration;
+      GenerateSerializationAssemblies;
+      CreateSatelliteAssemblies;
+      GenerateManifests;
+      GetTargetPath;
+      PrepareForRun;
+      UnmanagedRegistration;
+      IncrementalClean;
+      PostBuildEvent
+    
+CoreCleanDependsOn = 
+CoreCompileDependsOn = _ComputeNonExistentFileProperty;ResolveCodeAnalysisRuleSet
+CoreResGenDependsOn = 
+CreateCustomManifestResourceNamesDependsOn = 
+CreateHardLinksForCopyAdditionalFilesIfPossible = false
+CreateManifestResourceNamesDependsOn = 
+CreateSatelliteAssembliesDependsOn = 
+      _GenerateSatelliteAssemblyInputs;
+      ComputeIntermediateSatelliteAssemblies;
+      GenerateSatelliteAssemblies
+    
+CSharpTargetsPath = C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.CSharp.CurrentVersion.targets
+CustomAfterMicrosoftCommonProps = C:\Program Files (x86)\MSBuild\v14.0\Custom.After.Microsoft.Common.props
+CustomAfterMicrosoftCommonTargets = C:\Program Files (x86)\MSBuild\v14.0\Custom.After.Microsoft.Common.targets
+CustomAfterMicrosoftCSharpTargets = C:\Program Files (x86)\MSBuild\v14.0\Custom.After.Microsoft.CSharp.targets
+CustomBeforeMicrosoftCommonProps = C:\Program Files (x86)\MSBuild\v14.0\Custom.Before.Microsoft.Common.props
+CustomBeforeMicrosoftCommonTargets = C:\Program Files (x86)\MSBuild\v14.0\Custom.Before.Microsoft.Common.targets
+CustomBeforeMicrosoftCSharpTargets = C:\Program Files (x86)\MSBuild\v14.0\Custom.Before.Microsoft.CSharp.targets
+DebugSymbols = true
+DebugSymbolsProjectOutputGroupDependsOn = 
+DebugType = full
+DefaultLanguageSourceExtension = .cs
+DeferredValidationErrorsFileName = obj\Debug\\AC2C1ABA-CCF6-44D4-8127-588FD4D0A860-DeferredValidationErrors.xml
+DefineConstants = DEBUG;TRACE
+DelaySign = 
+DeploymentType = Installed
+DesignTimeIntermediateOutputPath = obj\Debug\InProcessTempFiles\
+DesignTimeResolveAssemblyReferencesDependsOn = 
+      GetFrameworkPaths;
+      GetReferenceAssemblyPaths;
+      ResolveReferences
+    
+DevEnvDir = *Undefined*
+DocumentationProjectOutputGroupDependsOn = 
+EmbeddedWin32Manifest = 
+EntityDeployDependsOn = 
+EntityDeployIntermediateResourcePath = obj\Debug\edmxResourcesToEmbed\
+ErrorReport = prompt
+ExpandSDKAllowedReferenceExtensions = 
+      .winmd;
+      .dll
+    
+ExpandSDKReferencesDependsOn = 
+      ResolveSDKReferences
+    
+FakesBinPath = C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v14.0\Fakes
+FakesCommandLineArguments =  /msbuildpath:"C:\Program Files (x86)\MSBuild\14.0\bin\msbuild.exe"
+FakesContinueOnError = false
+FakesGenerateBeforeBuildDependsOn = 
+      ;
+      ResolveFakesReferences;
+      BuildFakesAssemblies;
+    
+FakesImported = true
+FakesIntermediatePath = C:\Users\lodejard\Projects\Hacking\src\LibraryBeta.PCL.Desktop\obj\Debug\Fakes
+FakesMSBuildPath = C:\Program Files (x86)\MSBuild\14.0\bin\msbuild.exe
+FakesOutputPath = C:\Users\lodejard\Projects\Hacking\src\LibraryBeta.PCL.Desktop\FakesAssemblies
+FakesTargets = C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v14.0\Fakes\Microsoft.QualityTools.Testing.Fakes.targets
+FakesTasks = C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v14.0\Fakes\Microsoft.QualityTools.Testing.Fakes.Tasks.dll
+FakesToolsPath = C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v14.0\Fakes
+FakesVerbosity = Critical
+FileAlignment = 512
+FindInvalidProjectReferencesDependsOn = 
+      GetReferenceTargetPlatformMonikers
+    
+FP_NO_HOST_CHECK = NO
+Framework20Dir = @(_TargetFramework20DirectoryItem)
+Framework30Dir = @(_TargetFramework30DirectoryItem)
+Framework35Dir = @(_TargetFramework35DirectoryItem)
+Framework40Dir = @(_TargetFramework40DirectoryItem)
+FrameworkDir = @(_TargetFramework40DirectoryItem)
+FrameworkPathOverride = C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5
+FrameworkRegistryBase = Software\Microsoft\.NETFramework
+FrameworkSDKDir = @(_TargetFrameworkSDKDirectoryItem)
+FrameworkSDKRoot = C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\
+FullReferenceAssemblyNames = Full
+GenerateBuildInfoConfigFile = false
+GenerateCompiledExpressionsTempFilePathForEditing = obj\Debug\\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
+GenerateCompiledExpressionsTempFilePathForTypeInfer = obj\Debug\\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
+GenerateCompiledExpressionsTempFilePathForValidation = obj\Debug\\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
+GeneratedFileExtension = .g.cs
+GenerateManifestsDependsOn = 
+      SetWin32ManifestProperties;
+      GenerateApplicationManifest;
+      GenerateDeploymentManifest
+    
+GenerateTargetFrameworkAttribute = true
+GetCopyToOutputDirectoryItemsDependsOn = 
+      AssignTargetPaths;
+      _SplitProjectReferencesByFileExistence
+    
+GetFrameworkPathsDependsOn = 
+GetReferenceAssemblyPathsDependsOn = 
+        ;
+        GetWinFXPath
+    
+GetTargetPathDependsOn = 
+GetTargetPathWithTargetPlatformMonikerDependsOn = ; GetTargetPath
+HighEntropyVA = true
+HOMEDRIVE = C:
+HOMEPATH = \Users\lodejard
+HostInBrowser = false
+ImplicitlyExpandDesignTimeFacades = true
+ImplicitlyExpandDesignTimeFacadesDependsOn = 
+      ;
+      GetReferenceAssemblyPaths
+    
+ImportByWildcardAfterMicrosoftCommonTargets = true
+ImportByWildcardAfterMicrosoftCSharpTargets = true
+ImportByWildcardAfterMicrosoftNetFrameworkProps = true
+ImportByWildcardAfterMicrosoftNetFrameworkTargets = true
+ImportByWildcardBeforeMicrosoftCommonTargets = true
+ImportByWildcardBeforeMicrosoftCSharpTargets = true
+ImportByWildcardBeforeMicrosoftNetFrameworkProps = true
+ImportByWildcardBeforeMicrosoftNetFrameworkTargets = true
+ImportUserLocationsByWildcardAfterMicrosoftCommonTargets = true
+ImportUserLocationsByWildcardAfterMicrosoftCSharpTargets = true
+ImportUserLocationsByWildcardAfterMicrosoftNetFrameworkProps = true
+ImportUserLocationsByWildcardAfterMicrosoftNetFrameworkTargets = true
+ImportUserLocationsByWildcardBeforeMicrosoftCommonTargets = true
+ImportUserLocationsByWildcardBeforeMicrosoftCSharpTargets = true
+ImportUserLocationsByWildcardBeforeMicrosoftNetFrameworkProps = true
+ImportUserLocationsByWildcardBeforeMicrosoftNetFrameworkTargets = true
+IncludeServerNameInBuildInfo = false
+IntermediateOutputPath = obj\Debug\
+IsLibrary = true
+KRE_HOME = C:\Program Files\KRE;%USERPROFILE%\.kre
+Language = C#
+LoadTimeSensitiveProperties = 
+      ;
+    
+LoadTimeSensitiveTargets = 
+      ;
+      XamlMarkupCompilePass1;
+    
+LOCALAPPDATA = C:\Users\lodejard\AppData\Local
+LocalizationDirectivesToLocFile = None
+LOGONSERVER = \\CO1-RED-DC-17
+MarkupCompilePass2ForMainAssemblyDependsOn = 
+                     GenerateTemporaryTargetAssembly;
+                     MarkupCompilePass2;
+                     AfterMarkupCompilePass2;
+                     CleanupTemporaryTargetAssembly
+       
+MaxTargetPath = 100
+MergedOutputCodeAnalysisFile = vc.nativecodeanalysis.all.xml
+MicrosoftCommonPropsHasBeenImported = true
+MsAppxPackageTargets = C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v14.0\AppxPackage\Microsoft.AppXPackage.Targets
+MSBuildAllProjects = ;C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.CSharp.CurrentVersion.targets;C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.NetFramework.CurrentVersion.props;C:\Users\lodejard\Projects\Hacking\src\LibraryBeta.PCL.Desktop\LibraryBeta.PCL.Desktop.csproj;C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets;C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.NetFramework.CurrentVersion.targets;C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Xaml.targets
+MSBuildAssemblyVersion = 14.0
+MSBuildBinPath = C:\Program Files (x86)\MSBuild\14.0\bin
+MSBuildExtensionsPath = C:\Program Files (x86)\MSBuild
+MSBuildExtensionsPath32 = C:\Program Files (x86)\MSBuild
+MSBuildExtensionsPath64 = C:\Program Files\MSBuild
+MSBuildFrameworkToolsPath = C:\windows\Microsoft.NET\Framework\v4.0.30319\
+MSBuildFrameworkToolsPath32 = C:\windows\Microsoft.NET\Framework\v4.0.30319\
+MSBuildFrameworkToolsRoot = C:\windows\Microsoft.NET\Framework\
+MSBuildLoadMicrosoftTargetsReadOnly = true
+MSBUILDLOGTASKINPUTS = 1
+MSBuildNodeCount = 1
+MSBuildProgramFiles32 = C:\Program Files (x86)
+MSBuildProjectDefaultTargets = Build
+MSBuildProjectDirectory = C:\Users\lodejard\Projects\Hacking\src\LibraryBeta.PCL.Desktop
+MSBuildProjectDirectoryNoRoot = Users\lodejard\Projects\Hacking\src\LibraryBeta.PCL.Desktop
+MSBuildProjectExtension = .csproj
+MSBuildProjectFile = LibraryBeta.PCL.Desktop.csproj
+MSBuildProjectFullPath = C:\Users\lodejard\Projects\Hacking\src\LibraryBeta.PCL.Desktop\LibraryBeta.PCL.Desktop.csproj
+MSBuildProjectName = LibraryBeta.PCL.Desktop
+MSBuildRuntimeVersion = 4.0.30319
+MSBuildStartupDirectory = C:\Users\lodejard\Projects\Hacking\src\LibraryBeta.PCL.Desktop
+MSBuildToolsPath = C:\Program Files (x86)\MSBuild\14.0\bin
+MSBuildToolsPath32 = C:\Program Files (x86)\MSBuild\14.0\bin\
+MSBuildToolsRoot = C:\Program Files (x86)\MSBuild\
+MSBuildToolsVersion = 14.0
+MSBuildUserExtensionsPath = C:\Users\lodejard\AppData\Local\Microsoft\MSBuild
+MsTestToolsTargets = C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v14.0\TeamTest\Microsoft.TeamTest.targets
+NetFrameworkPropsPath = C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.NetFramework.CurrentVersion.props
+NetFrameworkTargetsPath = C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.NetFramework.CurrentVersion.targets
+NoCompilerStandardLib = true
+NUMBER_OF_PROCESSORS = 2
+Optimize = false
+OS = Windows_NT
+OSVersion = 5.1.2600.0
+OutDir = bin\Debug\
+OutputPath = bin\Debug\
+OutputType = Library
+OverwriteReadOnlyFiles = false
+Path = C:\Users\lodejard\.kre\packages\KRE-CLR-x86.1.0.0-beta1-10577\bin;C:\Program Files (x86)\Parallels\Parallels Tools\Applications;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.1\;C:\Program Files\nodejs\;C:\Program Files (x86)\Git\cmd;C:\Users\lodejard\bin;C:\Users\lodejard\.kre\bin;C:\ProgramData\chocolatey\bin;C:\Users\lodejard\AppData\Roaming\npm
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+Platform = AnyCPU
+PlatformName = AnyCPU
+PlatformTargetAsMSBuildArchitecture = CurrentArchitecture
+PlatformTargetAsMSBuildArchitectureExplicitlySet = false
+PostBuildEventDependsOn = 
+PreBuildEventDependsOn = 
+Prefer32Bit = false
+PrepareForBuildDependsOn = GetFrameworkPaths;GetReferenceAssemblyPaths;AssignLinkMetadata
+PrepareForRunDependsOn = 
+      CopyFilesToOutputDirectory
+    ;RunCodeAnalysis
+PrepareResourceNamesDependsOn = 
+                    AssignWinFXEmbeddedResource;
+                    
+      AssignTargetPaths;
+      SplitResourcesByCulture;
+      CreateManifestResourceNames;
+      CreateCustomManifestResourceNames
+    
+      
+PrepareResourcesDependsOn = 
+      ValidationExtension;
+      ExpressionBuildExtension;
+      
+      XamlMarkupCompilePass1;
+      XamlMarkupCompilePass2;
+      
+                MarkupCompilePass1;
+                AfterMarkupCompilePass1;
+                MarkupCompilePass2ForMainAssembly;
+                FileClassification;
+                MainResourcesGeneration;
+                
+      PrepareResourceNames;
+      ResGen;
+      CompileLicxFiles
+    ;CompileRdlFiles
+       
+    
+    
+PROCESSOR_ARCHITECTURE = x86
+PROCESSOR_ARCHITEW6432 = AMD64
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 69 Stepping 1, GenuineIntel
+PROCESSOR_LEVEL = 6
+PROCESSOR_REVISION = 4501
+ProcessorArchitecture = msil
+ProcessorArchitectureAsPlatform = AnyCPU
+ProgramData = C:\ProgramData
+ProgramFiles = C:\Program Files (x86)
+ProgramW6432 = C:\Program Files
+ProjectDesignTimeAssemblyResolutionSearchPaths = 
+      {CandidateAssemblyFiles};
+      ;
+      {HintPathFromItem};
+      {TargetFrameworkDirectory};
+      {Registry:Software\Microsoft\.NETFramework,v4.5,AssemblyFoldersEx};
+      {RawFileName};
+      C:\Users\lodejard\Projects\Hacking\src\LibraryBeta.PCL.Desktop\bin\Debug\
+    
+ProjectDir = C:\Users\lodejard\Projects\Hacking\src\LibraryBeta.PCL.Desktop\
+ProjectExt = .csproj
+ProjectFileName = LibraryBeta.PCL.Desktop.csproj
+ProjectFlavor = Client
+ProjectGuid = {53875A93-536E-40F3-BA42-20C13A4CF6EA}
+ProjectName = LibraryBeta.PCL.Desktop
+ProjectNSettingsTargets = C:\Program Files (x86)\MSBuild\Microsoft\.NetNative\Microsoft.NetNative.Settings.targets
+ProjectNTargets = C:\Program Files (x86)\MSBuild\Microsoft\.NetNative\Microsoft.NetNative.targets
+ProjectPath = C:\Users\lodejard\Projects\Hacking\src\LibraryBeta.PCL.Desktop\LibraryBeta.PCL.Desktop.csproj
+PROMPT = $P$G
+PSModulePath = C:\windows\system32\WindowsPowerShell\v1.0\Modules\;c:\Program Files\Microsoft Security Client\MpProvider\
+PUBLIC = C:\Users\Public
+PublishableProject = 
+PublishBuildDependsOn = 
+            BuildOnlySettings;
+            PrepareForBuild;
+            ResolveReferences;
+            PrepareResources;
+            ResolveKeySource;
+            PrepareResourcesForSatelliteAssemblies;
+            GenerateSerializationAssemblies;
+            CreateSatelliteAssemblies;
+        
+PublishDependsOn = 
+      _DeploymentUnpublishable
+    
+PublishDir = bin\Debug\app.publish\
+PublishOnlyDependsOn = 
+      SetGenerateManifests;
+      PublishBuild;
+      BeforePublish;
+      GenerateManifests;
+      CopyFilesToOutputDirectory;
+      _CopyFilesToPublishFolder;
+      _DeploymentGenerateBootstrapper;
+      ResolveKeySource;
+      _DeploymentSignClickOnceDeployment;
+      AfterPublish
+    
+PublishPipelineCollectFilesCore = 
+            ;
+            CollectFilesFromBuildInfoConfigFile;
+        
+RebuildDependsOn = 
+      BeforeRebuild;
+      Clean;
+      Build;
+      AfterRebuild;
+    
+ReportingServicesTargets = C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v14.0\ReportingServices\Microsoft.ReportingServices.targets
+ResGenDependsOn = ResolveAssemblyReferences;SplitResourcesByCulture;BeforeResGen;CoreResGen;AfterResGen
+ResGenExecuteAsTool = false
+ResolveAssemblyReferencesDependsOn = 
+      
+      GetFrameworkPaths;
+      GetReferenceAssemblyPaths;
+      PrepareForBuild;
+      ResolveSDKReferences;
+      ExpandSDKReferences;
+    ;
+      FakesGenerateBeforeBuild;
+    
+ResolveReferencesDependsOn = 
+      
+      
+      BeforeResolveReferences;
+      AssignProjectConfiguration;
+      ResolveProjectReferences;
+      FindInvalidProjectReferences;
+      ResolveNativeReferences;
+      ResolveAssemblyReferences;
+      GenerateBindingRedirects;
+      ResolveComReferences;
+      AfterResolveReferences
+    ;
+      ImplicitlyExpandDesignTimeFacades
+    ;
+      ResolveTestReferences
+    
+ResolveSDKReferencesDependsOn = 
+      GetInstalledSDKLocations
+    
+RootNamespace = LibraryBeta
+RunAfterInstall = true
+RunCodeAnalysisDependsOn = ;Compile
+RunCodeAnalysisInputs = bin\Debug\LibraryBeta.dll
+RunDependsOn = 
+RunNativeCodeAnalysisInputs = 
+SatelliteDllsProjectOutputGroupDependsOn = PrepareForBuild;PrepareResourceNames
+SDK35ToolsPath = C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\
+SDK40ToolsPath = C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools\
+SDKRedistOutputGroupDependsOn = ResolveSDKReferences;ExpandSDKReferences
+SDKReferenceDirectoryRoot = C:\Users\lodejard\AppData\Local\Microsoft SDKs;C:\Program Files (x86)\Microsoft SDKs
+SDKReferenceRegistryRoot = Software\Microsoft\Microsoft SDKs
+SESSIONNAME = Console
+SGenFilesOutputGroupDependsOn = 
+SGenShouldGenerateSerializer = true
+SGenUseKeep = false
+SGenUseProxyTypes = true
+ShouldMarkCertainSDKReferencesAsRuntimeOnly = true
+SkipCopyUnchangedFiles = true
+SolutionDir = *Undefined*
+SolutionExt = *Undefined*
+SolutionFileName = *Undefined*
+SolutionName = *Undefined*
+SolutionPath = *Undefined*
+SourceFilesProjectOutputGroupDependsOn = PrepareForBuild;AssignTargetPaths
+SubsystemVersion = 6.00
+SystemDrive = C:
+SystemRoot = C:\windows
+SYSTEMTYPE = da-laptop
+TargetCulture = *
+TargetDeployManifestFileName = LibraryBeta.application
+TargetDir = C:\Users\lodejard\Projects\Hacking\src\LibraryBeta.PCL.Desktop\bin\Debug\
+TargetedFrameworkDir = @(_TargetedFrameworkDirectoryItem)
+TargetedRuntimeVersion = v4.0.30319
+TargetedSDKArchitecture = msil
+TargetedSDKConfiguration = Debug
+TargetExt = .dll
+TargetFileName = LibraryBeta.dll
+TargetFrameworkAsMSBuildRuntime = CLR4
+TargetFrameworkIdentifier = .NETFramework
+TargetFrameworkMoniker = .NETFramework,Version=v4.5
+TargetFrameworkMonikerAssemblyAttributesPath = C:\Users\lodejard\AppData\Local\Temp\.NETFramework,Version=v4.5.AssemblyAttributes.cs
+TargetFrameworkSDKToolsDirectory = C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools\
+TargetFrameworkVersion = v4.5
+TargetName = LibraryBeta
+TargetPath = C:\Users\lodejard\Projects\Hacking\src\LibraryBeta.PCL.Desktop\bin\Debug\LibraryBeta.dll
+TargetPlatformDisplayName = Windows 7.0
+TargetPlatformIdentifier = Windows
+TargetPlatformMoniker = Windows,Version=7.0
+TargetPlatformRegistryBase = Software\Microsoft\Microsoft SDKs\Windows
+TargetPlatformSdkPath = 
+TargetPlatformVersion = 7.0
+TargetRuntime = Managed
+TaskKeyToken = 31bf3856ad364e35
+TaskVersion = 4.0.0.0
+TEMP = C:\Users\lodejard\AppData\Local\Temp
+TMP = C:\Users\lodejard\AppData\Local\Temp
+ToastSettings = {"collection":[{"SolutionName":"DirectAccess","SolutionStatus":false},{"SolutionName":"DirectAccess cannot connect","SolutionStatus":false},{"SolutionName":"Outlook Not Responding","SolutionStatus":false},{"SolutionName":"Outlook Multiple Process running","SolutionStatus":false},{"SolutionName":"Draft Email Protection","SolutionStatus":false},{"SolutionName":"Pending Reboot","SolutionStatus":false},{"SolutionName":"Password Reset","SolutionStatus":false},{"SolutionName":"Outlook Corrupted Credentials","SolutionStatus":false},{"SolutionName":"IE Recommended Settings","SolutionStatus":false},{"SolutionName":"Smart Card is not working","SolutionStatus":false},{"SolutionName":"Unable to connect to wireless LAN","SolutionStatus":false},{"SolutionName":"WiFi driver update","SolutionStatus":false},{"SolutionName":"Windows Update","SolutionStatus":false}]}
+UATDATA = C:\Windows\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77
+UnmanagedRegistrationDependsOn = 
+UnmanagedUnregistrationDependsOn = 
+UpgradeSubsetToProfile = true
+UseCommonOutputDirectory = false
+UseHostCompilerIfAvailable = true
+USERDNSDOMAIN = REDMOND.CORP.MICROSOFT.COM
+USERDOMAIN = REDMOND
+USERDOMAIN_ROAMINGPROFILE = REDMOND
+USERNAME = lodejard
+USERPROFILE = C:\Users\lodejard
+UseSourcePath = true
+Utf8Output = true
+VCTargetsPath = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\
+VCTargetsPath10 = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\
+VCTargetsPath11 = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\
+VCTargetsPath12 = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\
+VCTargetsPath14 = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\
+Version = 1.0.0.0
+VisualStudioVersion = 14.0
+VS140COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\
+WarningLevel = 4
+WebReference_EnableLegacyEventingModel = false
+WebReference_EnableProperties = true
+WebReference_EnableSQLTypes = true
+windir = C:\windows
+WindowsSDK80Path = C:\Program Files (x86)\Windows Kits\8.1\
+WMSJSProject = WJProject
+WMSJSProjectDirectory = JavaScript
+WorkflowBuildExtensionAssemblyName = Microsoft.Activities.Build, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+WorkflowBuildExtensionKeyToken = 31bf3856ad364e35
+WorkflowBuildExtensionVersion = 4.0.0.0
+XamlBuildTaskAssemblyName = XamlBuildTask, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+XamlBuildTaskLocation = C:\windows\Microsoft.NET\Framework\v4.0.30319\
+XamlBuildTaskPath = C:\windows\Microsoft.NET\Framework\v4.0.30319\
+XamlDebuggingInformation = true
+XamlGenCodeFileNames = LibraryBeta.PCL.Desktop.csproj.XamlGeneratedCodeFileListAbsolute.txt
+XamlGenMarkupFileNames = LibraryBeta.PCL.Desktop.csproj.XamlGeneratedXamlFileListAbsolute.txt
+XamlPass2FlagFile = LibraryBeta.PCL.Desktop.csproj.XamlPass2Flag.txt
+XamlRequiresCompilationPass2 = false
+XamlTemporaryAssemblyName = LibraryBeta
+YieldDuringToolExecution = true
+
+Initial Items:
+_ApplicationManifestFinal
+    bin\Debug\Native.LibraryBeta.manifest
+        TargetPath = Native.LibraryBeta.manifest
+_DebugSymbolsIntermediatePath
+    obj\Debug\LibraryBeta.pdb
+_DebugSymbolsOutputPath
+    bin\Debug\LibraryBeta.pdb
+_DeploymentManifestEntryPoint
+    obj\Debug\LibraryBeta.dll
+        TargetPath = LibraryBeta.dll
+_ExplicitReference
+    C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll
+_OutputPathItem
+    bin\Debug\
+_ResolveComReferenceCache
+    obj\Debug\LibraryBeta.PCL.Desktop.csproj.ResolveComReference.cache
+_UnmanagedRegistrationCache
+    obj\LibraryBeta.PCL.Desktop.csproj.UnmanagedRegistration.cache
+AppConfigFileDestination
+    bin\Debug\LibraryBeta.dll.config
+ApplicationManifest
+    obj\Debug\Native.LibraryBeta.manifest
+        TargetPath = Native.LibraryBeta.manifest
+AvailableItemName
+    CodeAnalysisDictionary
+    EntityDeploy
+    Fakes
+BuiltProjectOutputGroupKeyOutput
+    C:\Users\lodejard\Projects\Hacking\src\LibraryBeta.PCL.Desktop\obj\Debug\LibraryBeta.dll
+        IsKeyOutput = true
+        FinalOutputPath = C:\Users\lodejard\Projects\Hacking\src\LibraryBeta.PCL.Desktop\bin\Debug\LibraryBeta.dll
+        TargetPath = LibraryBeta.dll
+Clean
+    obj\Debug\\TempCA\LibraryBeta.dll
+    obj\Debug\\TempCA\LibraryBeta.pdb
+Compile
+    Class1.cs
+    Properties\AssemblyInfo.cs
+DebugSymbolsProjectOutputGroupOutput
+    C:\Users\lodejard\Projects\Hacking\src\LibraryBeta.PCL.Desktop\obj\Debug\LibraryBeta.pdb
+        FinalOutputPath = C:\Users\lodejard\Projects\Hacking\src\LibraryBeta.PCL.Desktop\bin\Debug\LibraryBeta.pdb
+        TargetPath = LibraryBeta.pdb
+DeployManifest
+    obj\Debug\LibraryBeta.application
+        TargetPath = LibraryBeta.application
+IntermediateAssembly
+    obj\Debug\LibraryBeta.dll
+ProjectCapability
+    AllTargetOutputGroups
+    AssemblyReferences
+    COMReferences
+    CSharp
+    LanguageService
+    Managed
+    OutputGroups
+    ProjectConfigurationsInferredFromUsage
+    ProjectReferences
+    ReferencesFolder
+    RelativePathDerivedDefaultNamespace
+    SharedProjectReferences
+    SingleFileGenerators
+    VisualStudioWellKnownOutputGroups
+PropertyPageSchema
+    C:\Program Files (x86)\MSBuild\14.0\bin\\assemblyreference.xaml
+        Context = ;BrowseObject
+    C:\Program Files (x86)\MSBuild\14.0\bin\\COMReference.xaml
+        Context = ;BrowseObject
+    C:\Program Files (x86)\MSBuild\14.0\bin\\Content.xaml
+        Context = File;BrowseObject
+    C:\Program Files (x86)\MSBuild\14.0\bin\\CSharp.BrowseObject.xaml
+        Context = BrowseObject
+    C:\Program Files (x86)\MSBuild\14.0\bin\\CSharp.ProjectItemsSchema.xaml
+    C:\Program Files (x86)\MSBuild\14.0\bin\\CSharp.xaml
+        Context = File
+    C:\Program Files (x86)\MSBuild\14.0\bin\\Debugger_General.xaml
+        Context = Project
+    C:\Program Files (x86)\MSBuild\14.0\bin\\EmbeddedResource.xaml
+        Context = File;BrowseObject
+    C:\Program Files (x86)\MSBuild\14.0\bin\\Folder.xaml
+        Context = File;BrowseObject
+    C:\Program Files (x86)\MSBuild\14.0\bin\\General.BrowseObject.xaml
+        Context = BrowseObject
+    C:\Program Files (x86)\MSBuild\14.0\bin\\General.xaml
+        Context = Project
+    C:\Program Files (x86)\MSBuild\14.0\bin\\General_File.xaml
+        Context = File
+    C:\Program Files (x86)\MSBuild\14.0\bin\\None.xaml
+        Context = File;BrowseObject
+    C:\Program Files (x86)\MSBuild\14.0\bin\\ProjectItemsSchema.xaml
+    C:\Program Files (x86)\MSBuild\14.0\bin\\ProjectReference.xaml
+        Context = ;BrowseObject
+    C:\Program Files (x86)\MSBuild\14.0\bin\\ResolvedAssemblyReference.xaml
+        Context = ProjectSubscriptionService;BrowseObject
+    C:\Program Files (x86)\MSBuild\14.0\bin\\ResolvedCOMReference.xaml
+        Context = ProjectSubscriptionService;BrowseObject
+    C:\Program Files (x86)\MSBuild\14.0\bin\\ResolvedProjectReference.xaml
+        Context = ProjectSubscriptionService;BrowseObject
+    C:\Program Files (x86)\MSBuild\14.0\bin\\SCC.xaml
+        Context = Invisible
+    C:\Program Files (x86)\MSBuild\14.0\bin\\SpecialFolder.xaml
+        Context = File;ProjectSubscriptionService
+Reference
+    Microsoft.CSharp
+    System
+    System.Core
+    System.Data
+    System.Data.DataSetExtensions
+    System.Xml
+    System.Xml.Linq
+XamlBuildTaskTypeGenerationExtensionName
+    Microsoft.Activities.Build.BeforeInitializeComponentExtension
+        AssemblyName = Microsoft.Activities.Build, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+        Visible = false
+    Microsoft.Activities.Build.Debugger.DebugBuildExtension
+        AssemblyName = Microsoft.Activities.Build, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+        Visible = false
+
+Building with tools version "14.0".
+Target "_CheckForInvalidConfigurationAndPlatform: (TargetId:2)" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\lodejard\Projects\Hacking\src\LibraryBeta.PCL.Desktop\LibraryBeta.PCL.Desktop.csproj" (entry point):
+Task "Error" skipped, due to false condition; ( '$(_InvalidConfigurationError)' == 'true' ) was evaluated as ( '' == 'true' ).
+Task "Warning" skipped, due to false condition; ( '$(_InvalidConfigurationWarning)' == 'true' ) was evaluated as ( '' == 'true' ).
+Using "Message" task from assembly "Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "Message" (TaskId:2)
+  Task Parameter:Text=Configuration=Debug (TaskId:2)
+  Task Parameter:Importance=Low (TaskId:2)
+  Configuration=Debug (TaskId:2)
+Done executing task "Message". (TaskId:2)
+Task "Message" (TaskId:3)
+  Task Parameter:Text=Platform=AnyCPU (TaskId:3)
+  Task Parameter:Importance=Low (TaskId:3)
+  Platform=AnyCPU (TaskId:3)
+Done executing task "Message". (TaskId:3)
+Task "Error" skipped, due to false condition; ('$(OutDir)' != '' and !HasTrailingSlash('$(OutDir)')) was evaluated as ('bin\Debug\' != '' and !HasTrailingSlash('bin\Debug\')).
+Task "Error" skipped, due to false condition; ('$(BaseIntermediateOutputPath)' != '' and !HasTrailingSlash('$(BaseIntermediateOutputPath)')) was evaluated as ('obj\' != '' and !HasTrailingSlash('obj\')).
+Task "Error" skipped, due to false condition; ('$(IntermediateOutputPath)' != '' and !HasTrailingSlash('$(IntermediateOutputPath)')) was evaluated as ('obj\Debug\' != '' and !HasTrailingSlash('obj\Debug\')).
+Done building target "_CheckForInvalidConfigurationAndPlatform" in project "LibraryBeta.PCL.Desktop.csproj".: (TargetId:2)
+Target "AssignProjectConfiguration" skipped, due to false condition; ('$(CurrentSolutionConfigurationContents)' != '' or '@(ProjectReference)'!='') was evaluated as ('' != '' or ''!='').
+Target "_SplitProjectReferencesByFileExistence: (TargetId:3)" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\lodejard\Projects\Hacking\src\LibraryBeta.PCL.Desktop\LibraryBeta.PCL.Desktop.csproj" (target "ResolveProjectReferences" depends on it):
+Task "ResolveNonMSBuildProjectOutput" skipped, due to false condition; ('$(BuildingInsideVisualStudio)'=='true' and '@(ProjectReferenceWithConfiguration)'!='') was evaluated as (''=='true' and ''!='').
+Done building target "_SplitProjectReferencesByFileExistence" in project "LibraryBeta.PCL.Desktop.csproj".: (TargetId:3)
+Target "ResolveProjectReferences: (TargetId:4)" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\lodejard\Projects\Hacking\src\LibraryBeta.PCL.Desktop\LibraryBeta.PCL.Desktop.csproj" (target "ResolveAssemblyReferencesDesignTime" depends on it):
+Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' != '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and ('' == 'true' or 'true' != 'true') and '14.0' != '10.0' and '' != '').
+Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' == '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and ('' == 'true' or 'true' != 'true') and '14.0' == '10.0' and '' != '').
+Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and '' != 'true' and 'true' == 'true' and '' != '').
+Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingProject)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and 'false' == 'true' and '' != '').
+Task "Warning" skipped, due to false condition; ('@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceNonexistent)' != '') was evaluated as ('' != '' and '' != '').
+Done building target "ResolveProjectReferences" in project "LibraryBeta.PCL.Desktop.csproj".: (TargetId:4)
+Target "GetFrameworkPaths: (TargetId:5)" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.NetFramework.CurrentVersion.targets" from project "C:\Users\lodejard\Projects\Hacking\src\LibraryBeta.PCL.Desktop\LibraryBeta.PCL.Desktop.csproj" (target "ResolveAssemblyReferences" depends on it):
+Done building target "GetFrameworkPaths" in project "LibraryBeta.PCL.Desktop.csproj".: (TargetId:5)
+Target "GetWinFXPath" skipped, due to false condition; (('@(Page)' != '' or '@(ApplicationDefinition)' != '' or '@(Resource)' != '') and ('$(GetWinFXNativePath)' != '' or '$(GetWinFXWoWPath)' != '' )) was evaluated as (('' != '' or '' != '' or '' != '') and ('' != '' or '' != '' )).
+Target "GetReferenceAssemblyPaths: (TargetId:6)" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\lodejard\Projects\Hacking\src\LibraryBeta.PCL.Desktop\LibraryBeta.PCL.Desktop.csproj" (target "ResolveAssemblyReferences" depends on it):
+Using "GetReferenceAssemblyPaths" task from assembly "Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "GetReferenceAssemblyPaths" (TaskId:4)
+  Task Parameter:TargetFrameworkMoniker=.NETFramework,Version=v4.5 (TaskId:4)
+Done executing task "GetReferenceAssemblyPaths". (TaskId:4)
+Done building target "GetReferenceAssemblyPaths" in project "LibraryBeta.PCL.Desktop.csproj".: (TargetId:6)
+Target "GetFrameworkPaths" skipped. Previously built successfully.
+Target "GetReferenceAssemblyPaths" skipped. Previously built successfully.
+Target "AssignLinkMetadata" skipped, due to false condition; ( '$(SynthesizeLinkMetadata)' == 'true' ) was evaluated as ( '' == 'true' ).
+Target "PrepareForBuild: (TargetId:7)" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\lodejard\Projects\Hacking\src\LibraryBeta.PCL.Desktop\LibraryBeta.PCL.Desktop.csproj" (target "ResolveAssemblyReferences" depends on it):
+Using "FindAppConfigFile" task from assembly "Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "FindAppConfigFile" (TaskId:5)
+  Task Parameter:TargetPath=LibraryBeta.dll.config (TaskId:5)
+Done executing task "FindAppConfigFile". (TaskId:5)
+Using "MakeDir" task from assembly "Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "MakeDir" (TaskId:6)
+  Task Parameter:
+      Directories=
+          bin\Debug\
+          obj\Debug\ (TaskId:6)
+Done executing task "MakeDir". (TaskId:6)
+Done building target "PrepareForBuild" in project "LibraryBeta.PCL.Desktop.csproj".: (TargetId:7)
+Target "GetInstalledSDKLocations: (TargetId:8)" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\lodejard\Projects\Hacking\src\LibraryBeta.PCL.Desktop\LibraryBeta.PCL.Desktop.csproj" (target "ResolveSDKReferences" depends on it):
+Task "GetInstalledSDKLocations" skipped, due to false condition; ('@(SDKReference)' != '') was evaluated as ('' != '').
+Done building target "GetInstalledSDKLocations" in project "LibraryBeta.PCL.Desktop.csproj".: (TargetId:8)
+Target "ResolveSDKReferences: (TargetId:9)" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\lodejard\Projects\Hacking\src\LibraryBeta.PCL.Desktop\LibraryBeta.PCL.Desktop.csproj" (target "ResolveAssemblyReferences" depends on it):
+Task "ResolveSDKReference" skipped, due to false condition; ('@(SDKReference)'!='') was evaluated as (''!='').
+Done building target "ResolveSDKReferences" in project "LibraryBeta.PCL.Desktop.csproj".: (TargetId:9)
+Target "ResolveSDKReferences" skipped. Previously built successfully.
+Target "ExpandSDKReferences: (TargetId:10)" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\lodejard\Projects\Hacking\src\LibraryBeta.PCL.Desktop\LibraryBeta.PCL.Desktop.csproj" (target "ResolveAssemblyReferences" depends on it):
+Task "GetSDKReferenceFiles" skipped, due to false condition; ('@(ResolvedSDKReference)'!='') was evaluated as (''!='').
+Done building target "ExpandSDKReferences" in project "LibraryBeta.PCL.Desktop.csproj".: (TargetId:10)
+Target "FakesGenerateBeforeBuild" skipped, due to false condition; (@(Fakes) != '' AND $(BuildingProject)) was evaluated as ( != '' AND false).
+Target "ResolveAssemblyReferences: (TargetId:11)" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\lodejard\Projects\Hacking\src\LibraryBeta.PCL.Desktop\LibraryBeta.PCL.Desktop.csproj" (target "ResolveAssemblyReferencesDesignTime" depends on it):
+Using "ResolveAssemblyReference" task from assembly "Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "ResolveAssemblyReference" (TaskId:7)
+  Task Parameter:
+      Assemblies=
+          System
+          System.Xml.Linq
+          System.Data.DataSetExtensions
+          Microsoft.CSharp
+          System.Data
+          System.Xml
+          System.Core
+                  Implicit=true (TaskId:7)
+  Task Parameter:AssemblyFiles=C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll (TaskId:7)
+  Task Parameter:
+      TargetFrameworkDirectories=
+          C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\
+          C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\ (TaskId:7)
+  Task Parameter:
+      SearchPaths=
+          {CandidateAssemblyFiles}
+          {HintPathFromItem}
+          {TargetFrameworkDirectory}
+          {Registry:Software\Microsoft\.NETFramework,v4.5,AssemblyFoldersEx}
+          {AssemblyFolders}
+          {GAC}
+          {RawFileName}
+          bin\Debug\ (TaskId:7)
+  Task Parameter:
+      AllowedAssemblyExtensions=
+          .winmd
+          .dll
+          .exe (TaskId:7)
+  Task Parameter:
+      AllowedRelatedFileExtensions=
+          .pdb
+          .xml
+          .pri (TaskId:7)
+  Task Parameter:TargetProcessorArchitecture=msil (TaskId:7)
+  Task Parameter:AutoUnify=True (TaskId:7)
+  Task Parameter:FindDependencies=False (TaskId:7)
+  Task Parameter:FindSatellites=False (TaskId:7)
+  Task Parameter:FindSerializationAssemblies=False (TaskId:7)
+  Task Parameter:FindRelatedFiles=False (TaskId:7)
+  Task Parameter:Silent=True (TaskId:7)
+  Task Parameter:TargetFrameworkVersion=v4.5 (TaskId:7)
+  Task Parameter:TargetFrameworkMoniker=.NETFramework,Version=v4.5 (TaskId:7)
+  Task Parameter:TargetFrameworkMonikerDisplayName=.NET Framework 4.5 (TaskId:7)
+  Task Parameter:TargetedRuntimeVersion=v4.0.30319 (TaskId:7)
+  Task Parameter:FullTargetFrameworkSubsetNames=Full (TaskId:7)
+  Task Parameter:FullFrameworkFolders=C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\ (TaskId:7)
+  Task Parameter:WarnOrErrorOnTargetArchitectureMismatch=Warning (TaskId:7)
+Done executing task "ResolveAssemblyReference". (TaskId:7)
+Done building target "ResolveAssemblyReferences" in project "LibraryBeta.PCL.Desktop.csproj".: (TargetId:11)
+Target "ResolveAssemblyReferencesDesignTime: (TargetId:12)" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\lodejard\Projects\Hacking\src\LibraryBeta.PCL.Desktop\LibraryBeta.PCL.Desktop.csproj" (entry point):
+Done building target "ResolveAssemblyReferencesDesignTime" in project "LibraryBeta.PCL.Desktop.csproj".: (TargetId:12)
+Done Building Project "C:\Users\lodejard\Projects\Hacking\src\LibraryBeta.PCL.Desktop\LibraryBeta.PCL.Desktop.csproj" (ResolveAssemblyReferencesDesignTime target(s)).
+Deferred Messages
+
+Detailed Build Summary
+======================
+     (TaskId:0)
+  
+  ============================== Build Hierarchy (IDs represent configurations) =====================================================
+  Id                  : Exclusive Time   Total Time   Path (Targets)
+  ----------------------------------------------------------------------------------------------------------------------------------- (TaskId:0)
+  0                   : 0.776s           0.776s       C:\Users\lodejard\Projects\Hacking\src\LibraryBeta.PCL.Desktop\LibraryBeta.PCL.Desktop.csproj (ResolveAssemblyReferencesDesignTime)  (TaskId:0)
+  
+  ============================== Node Utilization (IDs represent configurations) ====================================================
+  Timestamp:            1        Duration   Cumulative
+  ----------------------------------------------------------------------------------------------------------------------------------- (TaskId:0)
+  635491797334898090:   0        0.777s     0.777s ############### (TaskId:0)
+  -----------------------------------------------------------------------------------------------------------------------------------
+  Utilization:          100.0    Average Utilization: 100.0 (TaskId:0)
+
+Project Performance Summary:
+      681 ms  C:\Users\lodejard\Projects\Hacking\src\LibraryBeta.PCL.Desktop\LibraryBeta.PCL.Desktop.csproj   1 calls
+                681 ms  ResolveAssemblyReferencesDesignTime        1 calls
+
+Target Performance Summary:
+        1 ms  ResolveAssemblyReferencesDesignTime        1 calls
+        1 ms  ExpandSDKReferences                        1 calls
+        1 ms  GetInstalledSDKLocations                   1 calls
+        2 ms  GetFrameworkPaths                          1 calls
+        2 ms  ResolveSDKReferences                       1 calls
+        2 ms  _SplitProjectReferencesByFileExistence     1 calls
+        4 ms  ResolveProjectReferences                   1 calls
+        9 ms  GetReferenceAssemblyPaths                  1 calls
+        9 ms  PrepareForBuild                            1 calls
+       27 ms  _CheckForInvalidConfigurationAndPlatform   1 calls
+       53 ms  ResolveAssemblyReferences                  1 calls
+
+Task Performance Summary:
+        2 ms  FindAppConfigFile                          1 calls
+        2 ms  MakeDir                                    1 calls
+        3 ms  GetReferenceAssemblyPaths                  1 calls
+       10 ms  Message                                    2 calls
+       50 ms  ResolveAssemblyReference                   1 calls
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.85

@@ -1,0 +1,22 @@
+﻿{
+    "version": "1.0.0-*",
+
+    "dependencies": {
+        "LibraryAlpha": "1.0.0-*",
+        "LibraryGamma": "1.0.0-*"
+    },
+
+    "commands": {
+        "run": "run"
+    },
+
+    "frameworks": {
+        "aspnet50": { },
+        "aspnetcore50": {
+            "dependencies": {
+                "System.Console": "4.0.0.0",
+                "System.Reflection": "4.0.10.0"
+            }
+        }
+    }
+}

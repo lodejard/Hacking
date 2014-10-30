@@ -1,0 +1,43 @@
+﻿{
+    "version": "1.0.0-*",
+
+    "dependencies": {
+    },
+
+    "frameworks": {
+        "net45+win+wpa81+wp80": {
+            "bin": {
+                "assembly": "../LibraryBeta.PCL/bin/{configuration}/LibraryBeta.dll",
+                "pdb": "../LibraryBeta.PCL/bin/{configuration}/LibraryBeta.pdb"
+            }
+        },
+        "net45": {
+            "bin": {
+                "assembly": "../LibraryBeta.PCL.Desktop/bin/{configuration}/LibraryBeta.dll",
+                "pdb": "../LibraryBeta.PCL.Desktop/bin/{configuration}/LibraryBeta.pdb"
+            }
+        },
+        "wpa81": {
+            "bin": {
+                "assembly": "../LibraryBeta.PCL.Phone/bin/{configuration}/LibraryBeta.dll",
+                "pdb": "../LibraryBeta.PCL.Phone/bin/{configuration}/LibraryBeta.pdb"
+            }
+        },
+        "aspnet50": {
+            "dependencies": {
+            }
+        },
+        "aspnetcore50": {
+            "dependencies": {
+                "System.Runtime": "4.0.20.0"
+            }
+        }
+    },
+    "scripts": {
+        "prebuild": [
+            "msbuild ../LibraryBeta.PCL/LibraryBeta.PCL.csproj",
+            "msbuild ../LibraryBeta.PCL.Desktop/LibraryBeta.PCL.Desktop.csproj",
+            "msbuild ../LibraryBeta.PCL.Phone/LibraryBeta.PCL.Phone.csproj"
+        ]
+    }
+}
